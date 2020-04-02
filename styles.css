@@ -1,0 +1,124 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    background-image: url(images/bg-pattern-desktop.svg);
+}
+
+.text{
+    text-align: left;
+    margin: 40px;
+    line-height: 1.5;
+    padding: 3% 10% 7% 10%;
+}
+
+
+.pic{
+    display: block;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 1%;
+    height: 750px;
+    width: 590px;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+
+/* 
+.pic1{
+    position: absolute;
+    height: 750px;
+    width: 590px;
+    
+} */
+
+.pic2{
+    display: none;
+}
+.subtitle{
+
+    font-size: 6rem;
+    color: hsl(0, 6%, 24%);
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 15px;
+    padding-bottom: 20px;
+}
+
+#exampleInputEmail{
+    border-radius: 25px;
+    border: 4px thick hsl(0, 100%, 98%);
+    margin-top: 50px;
+    padding-left: 25px;
+    height: 50px;
+   
+}
+
+.arrow{
+    position: absolute;
+    top: 555px;
+    left: 470px;
+    background-image: linear-gradient(to right ,hsl(0, 80%, 86%) , hsl(0, 74%, 74%));
+    width: 90px;
+    height: 52px;
+    border-radius: 25px;
+}
+/* 
+.arrow-pic{
+    position: absolute;
+    width: 15px;
+    top: 10px;
+    left: 40px;
+    
+} */
+.we-are{
+    letter-spacing: 15px;
+    font-weight: 1;
+    padding-top: 100px;
+    font-size: 6rem;
+}
+.title{
+    padding-bottom: 30px;
+    margin-top: 2px;
+    margin-left: 2px;
+
+}
+.error{
+    color: red;
+}
+.error-pic{
+    position: absolute;
+    left: 430px;
+    top: 570px;
+}
+@media (max-width: 700px){
+    .pic2{
+        display: inline-block;
+        width: 10px;
+        
+    }
+    .pic1{
+        display: none;
+    }
+    .arrow{
+        position: absolute;
+        top: 802px;
+        left: 265px;
+        background-image: linear-gradient(to left ,hsl(0, 80%, 86%) , hsl(0, 74%, 74%));
+        width: 90px;
+        height: 52px;
+        border-radius: 25px;
+    } 
+    
+    .error-pic{
+        position: absolute;
+        top: 818px;
+        left: 220px;
+    }
+    
+}
+
+   
+
+    
